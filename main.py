@@ -78,7 +78,7 @@ def H(b,t):
   if p.lower()=='n':v+=(10 if 2<=i//16<=5 and 2<=i%16<=5 else-10)*(1 if p.isupper()==(t=='w')else-1)
   s+=v
  return s
-C=0;L=4000
+C=0;L=4400
 def N_(b,t,a,B,d,c,h):
  global C
  if C>=L or d<=0:return H(b,t)
